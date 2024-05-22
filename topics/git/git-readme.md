@@ -17,3 +17,10 @@ git branch
 git remote add origin https://github.com/yourusername/your-repo.git
 git push -u origin "your branch"
 ```
+
+## Git branches commands
+```
+git branch
+git checkout -b <new_branch_name>
+git switch <desire_branch_name>
+```
