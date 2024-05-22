@@ -32,7 +32,16 @@ git add .
 git commit -m "your message"
 git branch
 git remote add origin https://github.com/yourusername/your-repo.git
-git push -u origin "your branch"
+git push origin <your branch>
+```
+or
+```
+git clone https://github.com/yourusername/your-repo.git
+git status
+git branch
+git add .
+git commit -m "your message"
+git push origin <your branch>
 ```
 
 ## Branch Deletion
