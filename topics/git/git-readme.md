@@ -1,10 +1,26 @@
 # Useful git commands
 
-## Git setup
+## Local git setup
 ```
 git config --global --list
 git config --gobal user.name "your_github_username"
 git config --global user.email "your_github_email"
+git config --global push.autoSetupRemote true
+```
+
+## Git branch commands
+### List available branch
+```
+git branch
+```
+
+### Create a new branch
+
+`git checkout -b <new_branch_name>`
+
+### Switching branch
+```
+git switch <desire_branch_name>
 ```
 
 ## Pushing to remote (Github)
@@ -18,9 +34,13 @@ git remote add origin https://github.com/yourusername/your-repo.git
 git push -u origin "your branch"
 ```
 
-## Git branches commands
+## Branch Deletion
+### Local git branch
 ```
-git branch
-git checkout -b <new_branch_name>
-git switch <desire_branch_name>
+git branch -d <branch_name_to_be_deleted>
+```
+### Remote Github branch
+```
+git push origin --delete <branch_name_to_be_deleted>
+
 ```
