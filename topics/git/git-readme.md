@@ -52,5 +52,8 @@ git branch -d <branch_name_to_be_deleted>
 ### Remote Github branch
 ```
 git push origin --delete <branch_name_to_be_deleted>
-
 ```
+
+## Adding rule
+1. Settings --> Branches --> Add Rule
+2. Fill the branch name in "Branch name pattern"
