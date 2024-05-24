@@ -1,4 +1,4 @@
-# Useful git commands
+# Useful git commands:
 
 ## Local git setup
 ```
