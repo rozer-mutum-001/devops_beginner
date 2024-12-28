@@ -1,5 +1,10 @@
 # Useful git commands
 
+## Install git
+```
+sudo apt install git
+```
+
 ## Local git setup
 ```
 git config --global --list
