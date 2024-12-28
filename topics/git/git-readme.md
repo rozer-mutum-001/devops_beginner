@@ -7,10 +7,10 @@ sudo apt install git
 
 ## Local git setup
 ```
-git config --global --list
 git config --global user.name "your_github_username"
 git config --global user.email "your_github_email"
 git config --global push.autoSetupRemote true
+git config --global --list
 ```
 
 ## Git branch commands
